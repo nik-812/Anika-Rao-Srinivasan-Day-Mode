@@ -34,6 +34,14 @@
         background-color: #000000;
         color: E493A1;
       }
+      div.mycontainer {
+        width: 100%;
+        height: 50vw;
+        overflow: auto;
+      }
+      div.mycontainer div {
+        float: left;
+      }
     </style>
   </head>
   
@@ -45,31 +53,33 @@
       </a>
     </div>
    
-    
-      <img src="daymode-titlescreen.png" alt="Anika Rao Srinivasan - Digital Media, Graphic Design, UX, UI" style="width:100%">    
-      <img src="daymode-background.png" alt="Background" style="width:100%">  
-
-    
     <div>
-      <img src="daymode-profilephoto.jpg" alt="Profile Photo" style="width:20%;margin-top:-305%;margin-left:60%">
+      <img src="daymode-titlescreen.png" alt="Anika Rao Srinivasan - Digital Media, Graphic Design, UX, UI" style="width:100%">        
     </div>
+      
+    <div class="mycontainer" style="background-color:#E493A1;">
     
-    <button type="button" src="empty" class="button resumebutton" style="margin-top:-275%;margin-left:25%">
-      <p>
-        VIEW RESUME
-      </p>
-    </button>
-    
-    <div>
-      <h2 style="margin-top:-305%;margin-left:30%;color:white">
-        ABOUT ME
-      </h2>
-      <p style="margin-top:5%;margin-left:20%;color:white">
+      <div style="width:65%">
+        <h2 style="padding-top:10%;text-align:center;color:white;">ABOUT ME</h2>
+        
+        <p style="padding-top:5%;text-align:center;color:white;">
         My name is Anika Rao Srinivasan! I'm a second year student at the
-        <br>University of Waterloo, pursuiing a degree in Global Business and
-        <br>Digital Arts. 
-      </p>
+          <br>University of Waterloo, pursuing a degree in Global Business and
+          <br>Digital Arts. 
+          <br>
+          <br>
+        </p>
+        
+        <button type="button" src="empty" class="button resumebutton" style="margin-top:5%;margin-left:40%;margin-bottom:10%">
+          <p>VIEW RESUME</p>
+        </button>
+      </div>
+    
+    <div style="background-color:#E493A1;width:35%;">
+      <img src="daymode-profilephoto.jpg" alt="Profile Photo" style="width:50%;padding-top:30%;padding-bottom:20%">
+      </div>
     </div>
+    
     
   </body>
 </html>
