@@ -8,7 +8,9 @@
         position: fixed;
       }
       h1 {
-        
+        font-family: Georgia, Times New Roman, serif;
+        font: Georgia;
+        font-size: 3vw;
       }
       h2 {
         font-family: Trebuchet MS, Verdana, sans-serif;
@@ -34,30 +36,47 @@
         background-color: #000000;
         color: #E493A1;
       }
-      div.mycontainer {
+      div.aboutme {
         width: 100%;
         height: 50vw;
         overflow: auto;
+        background-color: #E493A1;
       }
-      div.mycontainer div {
+      div.aboutme div {
         float: left;
+      }
+      div.projectheader {
+        background-color: #C2D0EF;
+        color: #FEEFE2;
+        text-align: center;
+        padding-top: 1%;
+        padding-bottom: 1%;
+      }
+      div.project {
+        width: 100%;
+        height: 50vw;
+        overflow: auto;
+        background-color: #FEEFE2;
       }
     </style>
   </head>
   
   <body>
     
+    <!-- Switch between "Day Mode" and "Night Mode" -->
     <div id="switch">
       <a href="https://nik-812.github.io/Anika-Rao-Srinivasan-Night-Mode/">
         <img src="daymode-switch.png" alt="Day Mode Switch" style="float:right;width:20%">
       </a>
     </div>
    
+    <!-- Title Screen appears as soon as user opens the page -->
     <div>
       <img src="daymode-titlescreen.png" alt="Anika Rao Srinivasan - Digital Media, Graphic Design, UX, UI" style="width:100%">        
     </div>
       
-    <div class="mycontainer" style="background-color:#E493A1;">
+    <!-- "About Me" section -->
+    <div class="aboutme">
     
       <div style="width:65%">
         <h2 style="padding-top:10%;text-align:center;color:white;">ABOUT ME</h2>
@@ -75,11 +94,49 @@
         </button>
       </div>
     
-    <div style="background-color:#E493A1;width:35%;">
+    <div style="width:35%;">
       <img src="daymode-profilephoto.jpg" alt="Profile Photo" style="width:50%;padding-top:30%;padding-bottom:20%">
       </div>
     </div>
     
+    <!-- First Project -->
+    <div class="projectheader">
+      <h1>
+        Sticker Contest
+      </h1>
+      <p style="color:black;">
+        This was a project I did 
+      </p>
+    </div>
+    
+    <div class="project">
+    </div>
+    
+    <!-- Second Project -->
+    <div class="projectheader">
+      <h1>
+        BubbleBees
+      </h1>
+      <p style="color:black;">
+        This was a project I did 
+      </p>
+    </div>
+    
+    <div class="project">
+    </div>
+    
+    <!-- Third Project -->
+    <div class="projectheader">
+      <h1>
+        Magazine Design
+      </h1>
+      <p style="color:black;">
+        This was a project I did 
+      </p>
+    </div>
+    
+    <div class="project">
+    </div>
     
   </body>
 </html>
